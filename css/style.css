@@ -1,10 +1,25 @@
-body,ul, li, p{
+@font-face {
+    font-family: DMSerifTextRegular;
+    src: url(./fonts/DMSerifText-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: DMSerifTextItalic;
+    src: url(./fonts/DMSerifText-Italic.ttf);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Niconne&display=swap');
+
+
+body,ul, li, p,a{
     margin: 0;
     padding:0px;
     list-style: none;
     font-size: 20;
     font-family: Arial, Helvetica, sans-serif;
     background-color: fce4ec;
+    font-family: DMSerifTextRegular;
+    
 }
 
 a{
@@ -23,6 +38,7 @@ a{
     display: flex;
     gap: 250px;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .menu li{
@@ -44,19 +60,43 @@ a{
     max-height: 100px;
     height: 100px;
 }
+
 .coluna{
     display: flex;
-    flex-direction: column;
+    gap:250px;
+    flex-direction: row;
+    justify-content: space-evenly;
     
 }
 
 .coluna img{
     max-width: 300px;
     width: 300px;
-    max-height: 250px;
-    height: 250px;
+    max-height: 300px;
+    height: 300px;
     border-style: solid;
     border-radius: 5px;
-    border-color: black;
+    border-color: pink; 
+    margin:80px;
+    margin-top: 15px;
 }
+
+.ordem{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+.ordem li {
+    margin-left: 10px;
+    align-items: center;
+    color:antiquewhite;
  
+}
+
