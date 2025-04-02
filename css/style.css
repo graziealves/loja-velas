@@ -107,10 +107,22 @@ a{
 .controleimgFlor{
     display:flex;
     justify-content:flex-end;
+
 }
-.controleimgFlor h1{
+.controleimgFlor div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+}
+.controleimgFlor img{
+    flex-grow: 1;
+    margin-bottom: 10%;
+}
+.controleimgFlor h1, a{
     width: 100%;
     text-align: center;
+    color:#696969;
 }
 
 
