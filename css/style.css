@@ -172,4 +172,39 @@ a{
     display: block;
 }
 
+.controleVela{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+
+.controleVela div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.controleVela img{
+    flex-grow: 1;
+    margin-bottom: 1%;
+    max-width: 250px;
+    width: 250px;
+    max-height: 250px;
+    height: 250px;
+
+}
+
+.controleVela h1, a{
+    width: 70%;
+    text-align: center;
+    color:#696969;
+}
+
+.vela {
+    max-width: 350px;
+    width: 350px;
+    max-height: 350px;
+}
 
